@@ -34,6 +34,12 @@ const Hints = ({challenge}) => {
                             challenge === 8 ?
                             <p className='p-4 text-base font-medium'> I think he has killed people from his time in the military but who knows </p>
                             :
+                            challenge === 9 ?
+                            <p className='p-4 text-base font-medium'> No spaces </p>
+                            :
+                            challenge === 10 ?
+                            <p className='p-4 text-base font-medium'> You shouldn't need a hint for this one but it has to do with the couch </p>
+                            :
                             <p className='p-4 text-lg font-semibold'>No hint for this challenge</p>
                         
                         }
